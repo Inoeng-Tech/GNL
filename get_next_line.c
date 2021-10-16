@@ -6,7 +6,7 @@
 /*   By: afridasufi <afridasufi@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/28 13:14:12 by afridasufi        #+#    #+#             */
-/*   Updated: 2021/10/09 18:17:25 by afridasufi       ###   ########.fr       */
+/*   Updated: 2021/10/16 14:15:21 by anaouadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,9 +55,9 @@ char	*ft_strjoin(char const *s1, char const *s2)
 
 int	ft_strlen(const char *s)
 {
-	int	i;
-	char *p;
-	
+	int		i;
+	char	*p;
+
 	i = 0;
 	p = (char *)s;
 	while (*p != '\0')

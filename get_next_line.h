@@ -6,7 +6,7 @@
 /*   By: afridasufi <afridasufi@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/29 21:56:44 by afridasufi        #+#    #+#             */
-/*   Updated: 2021/10/08 16:45:39 by afridasufi       ###   ########.fr       */
+/*   Updated: 2021/10/16 14:18:52 by anaouadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,7 @@
 # include <stdio.h>
 # include <unistd.h>
 
-# ifndef MAX_FD 
 # define MAX_FD 4096
-# endif
-
-# ifndef BUFFER_SIZE
-# define BUFFER_SIZE 3
-# endif
 
 char	*get_next_line(int fd);
 char	*ft_strjoin(char const *s1, char const *s2);

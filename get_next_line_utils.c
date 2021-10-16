@@ -6,7 +6,7 @@
 /*   By: afridasufi <afridasufi@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/29 21:22:39 by afridasufi        #+#    #+#             */
-/*   Updated: 2021/10/16 12:42:12 by afridasufi       ###   ########.fr       */
+/*   Updated: 2021/10/16 14:14:18 by anaouadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	char	*ptr;
 	size_t	i;
 	size_t	j;
-	
+
 	ptr = (char *)malloc(sizeof(*s) * (len + 1));
 	if (!ptr)
 		return (NULL);
@@ -40,7 +40,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return (ptr);
 }
 
-void 	ft_free(char *ptr)
+void	ft_free(char *ptr)
 {
 	free (ptr);
 	ptr = NULL;

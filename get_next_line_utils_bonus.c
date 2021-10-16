@@ -6,7 +6,7 @@
 /*   By: afridasufi <afridasufi@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/29 21:22:39 by afridasufi        #+#    #+#             */
-/*   Updated: 2021/10/02 15:56:19 by afridasufi       ###   ########.fr       */
+/*   Updated: 2021/10/16 14:14:40 by anaouadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return (ptr);
 }
 
-void 	ft_free(char *ptr)
+void	ft_free(char *ptr)
 {
 	free (ptr);
 	ptr = NULL;
